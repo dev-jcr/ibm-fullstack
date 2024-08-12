@@ -198,3 +198,43 @@ Composite multicloud
  Data and AI integration
  Enhancing legacy apps
  VMware migration
+
+
+“Cloud infrastructure [that] is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.”
+Why community cloud?
+
+Community cloud approach is used by organizations for the following reasons:
+
+    The community cloud members work under the same set of security controls.
+
+    The approach provides the members the same attributes like citizenship and authorization controls while giving limited physical and/or logical access to resources.
+
+    It also supports data localization and some data sovereignty requirements based on the location of the community cloud’s data centers. 
+
+    The approach defines a perimeter security model encompassing the community cloud. 
+
+Implementation of software-defined community cloud 
+
+To establish a security perimeter, most legacy community clouds depend on physical separation from other clouds. However, this implementation could not meet the advanced security, manageability, or compliance requirements of the industry.
+
+In the modern architecture, a software-defined community cloud is designed to deliver the required benefits. Google Cloud is a software-defined approach that provides security and compliance assurances without the strict physical infrastructure constraints of legacy approaches. The Google community clouds use a combination of technologies referred to as “assured clouds” that can:
+
+    Define communities around common projects, security and compliance requirements, and policy.
+
+    Separate shared community projects from other projects.
+
+    Modify capabilities of a community’s boundary based on policy-controlled and audited configuration changes.
+
+    Lesson 2 Summary: Deployment Models
+
+In this lesson, you have learned:
+
+    Deployment models indicate where the infrastructure resides, who owns and manages it, and how cloud resources and services are made available to users. There are four main deployment models available on the cloud—public, private, hybrid, and community.
+
+    In the public cloud model, the service provider owns, manages, provisions, and maintains the physical infrastructure such as data centers, servers, networking equipment, and storage, with users accessing virtualized computing, networking and storage resources as services.
+
+    In the private cloud model, the provider provisions the cloud infrastructure for exclusive use by a single organization. The private cloud infrastructure can be internal to the organization and run or on-premises. Or it can be on a public cloud, as in the case of Virtual Private Clouds (VPC), and be owned, managed, and operated by the cloud provider.
+
+    In the hybrid cloud model, an organization’s on-premise private cloud and a third-party, public cloud are connected as a single, flexible infrastructure that leverages the features and benefits of both Public and Private clouds.
+
+    In the community cloud model, the provider provisions the cloud infrastructure for use by a community of organizations with shared concerns. One or more of the organizations in the community, a third-party provider, or both are responsible for the ownership, management, and operation of this infrastructure.
